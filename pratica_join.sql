@@ -53,8 +53,7 @@ SELECT
 	u.name AS name,
 	r.name AS role,
 	c.name AS company,
-	e."startDate",
-	e."endDate"
+	e."startDate"
 FROM
 	experiences AS e
 	JOIN
