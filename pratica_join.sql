@@ -7,7 +7,9 @@ FROM
    users
    JOIN
       cities
-      ON users."cityId" = cities.id;
+      ON users."cityId" = cities.id
+WHERE
+	cities.name = 'Rio de Janeiro';
 
 -- Questão 2:
 SELECT
